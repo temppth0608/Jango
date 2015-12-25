@@ -107,7 +107,7 @@
                                 <color key="backgroundColor" red="0.23529411764705882" green="0.77254901960784317" blue="0.74509803921568629" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="57" sectionHeaderHeight="28" sectionFooterHeight="28" id="BWX-bw-R8t">
-                                <rect key="frame" x="0.0" y="383" width="320" height="134"/>
+                                <rect key="frame" x="0.0" y="383" width="320" height="156"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -127,7 +127,7 @@
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="reD-QM-MsO">
-                                                    <rect key="frame" x="82" y="17" width="217" height="21"/>
+                                                    <rect key="frame" x="84" y="17" width="217" height="21"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                                     <color key="textColor" red="0.94901960784313721" green="0.49411764705882355" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
