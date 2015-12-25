@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="OFw-mg-0fU">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="OFw-mg-0fU">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
         <!--Item-->
@@ -16,13 +16,11 @@
                             <navigationBar contentMode="scaleToFill" id="j17-Kw-msv">
                                 <rect key="frame" x="0.0" y="18" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <animations/>
                                 <items>
                                     <navigationItem title="Title" id="0G1-ot-MGu"/>
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Xvs-zh-Yyj"/>
@@ -38,7 +36,6 @@
                     <view key="view" contentMode="scaleToFill" id="gO9-o6-7hK">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="jLS-7R-5Vp"/>
@@ -54,7 +51,6 @@
                     <view key="view" contentMode="scaleToFill" id="WqS-38-bFe">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -69,7 +65,6 @@
                     <view key="view" contentMode="scaleToFill" id="RJh-sT-00H">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
@@ -77,10 +72,10 @@
             </objects>
             <point key="canvasLocation" x="1795" y="700"/>
         </scene>
-        <!--Item 1-->
+        <!--Main View Controller-->
         <scene sceneID="bhK-JZ-jh0">
             <objects>
-                <viewController id="Ywi-pD-sed" sceneMemberID="viewController">
+                <viewController id="Ywi-pD-sed" customClass="MainViewController" customModule="jango" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="WxW-jK-rU2">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -88,16 +83,78 @@
                             <navigationBar contentMode="scaleToFill" id="mW9-Xp-CcY">
                                 <rect key="frame" x="0.0" y="18" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <animations/>
                                 <items>
                                     <navigationItem title="Title" id="mzi-Ac-Eed"/>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" id="JtO-lf-Re9">
+                                <rect key="frame" x="0.0" y="62" width="320" height="321"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="refri" id="cCB-9J-6vZ">
+                                        <rect key="frame" x="42" y="92" width="237" height="158"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clean_bar" id="a3J-a9-e1l">
+                                        <rect key="frame" x="67" y="44" width="182" height="24"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" id="IvX-tW-b0w">
+                                        <rect key="frame" x="212" y="37" width="15" height="14"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.23529411764705882" green="0.77254901960784317" blue="0.74509803921568629" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="57" sectionHeaderHeight="28" sectionFooterHeight="28" id="BWX-bw-R8t">
+                                <rect key="frame" x="0.0" y="383" width="320" height="134"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="JangoSayTableViewCell" rowHeight="57" id="Ajk-Zd-NBH" customClass="JangoSayTableViewCell" customModule="jango" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="57"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ajk-Zd-NBH" id="MV8-Wm-aB4">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="56"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="jango" id="G1D-85-TA3">
+                                                    <rect key="frame" x="23" y="8" width="40" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="balloon" id="2Ja-kS-QDe">
+                                                    <rect key="frame" x="72" y="8" width="240" height="40"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="reD-QM-MsO">
+                                                    <rect key="frame" x="82" y="17" width="217" height="21"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <color key="textColor" red="0.94901960784313721" green="0.49411764705882355" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.32549019610000002" green="0.32549019610000002" blue="0.32549019610000002" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <outlet property="ballonImageView" destination="2Ja-kS-QDe" id="E3f-Jl-Zvd"/>
+                                            <outlet property="jangoImageView" destination="G1D-85-TA3" id="ysI-hA-gKJ"/>
+                                            <outlet property="jangoLabel" destination="reD-QM-MsO" id="wTA-t3-qWZ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Ywi-pD-sed" id="1xa-4h-4fy"/>
+                                    <outlet property="delegate" destination="Ywi-pD-sed" id="bru-ua-X8I"/>
+                                </connections>
+                            </tableView>
                         </subviews>
-                        <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="wxH-uV-Ccd"/>
+                    <tabBarItem key="tabBarItem" title="" image="tab_main" id="wxH-uV-Ccd"/>
+                    <connections>
+                        <outlet property="jangoSayTableView" destination="BWX-bw-R8t" id="Y8z-pr-ORV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sxd-ad-Tcg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -111,7 +168,6 @@
                     <tabBar key="tabBar" contentMode="scaleToFill" id="8cT-ci-8Ht">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
@@ -133,7 +189,6 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="F5E-dk-Atg">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <animations/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -145,4 +200,12 @@
             <point key="canvasLocation" x="471" y="700"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="arrow" width="26" height="23"/>
+        <image name="balloon" width="409" height="91"/>
+        <image name="clean_bar" width="357" height="44"/>
+        <image name="jango" width="111" height="111"/>
+        <image name="refri" width="523" height="367"/>
+        <image name="tab_main" width="25" height="34"/>
+    </resources>
 </document>
