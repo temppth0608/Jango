@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		651018151C2CFA7B00B2DC2C /* JangoSayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651018141C2CFA7B00B2DC2C /* JangoSayTableViewCell.swift */; };
+		DECDFE941C2CF25E00E9C2BE /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE931C2CF25E00E9C2BE /* Food.swift */; };
+		DECDFE961C2CF73800E9C2BE /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE951C2CF73800E9C2BE /* FoodCategory.swift */; };
+		DECDFE981C2CF96500E9C2BE /* FoodManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE971C2CF96500E9C2BE /* FoodManage.swift */; };
 		E8EC9BE81C2CDE81002A7FA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BE71C2CDE81002A7FA3 /* AppDelegate.swift */; };
-		E8EC9BEA1C2CDE81002A7FA3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BE91C2CDE81002A7FA3 /* MainViewController.swift */; };
+		E8EC9BEA1C2CDE81002A7FA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BE91C2CDE81002A7FA3 /* ViewController.swift */; };
 		E8EC9BED1C2CDE81002A7FA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EC9BEB1C2CDE81002A7FA3 /* Main.storyboard */; };
 		E8EC9BF01C2CDE81002A7FA3 /* jango.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BEE1C2CDE81002A7FA3 /* jango.xcdatamodeld */; };
 		E8EC9BF21C2CDE81002A7FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EC9BF11C2CDE81002A7FA3 /* Assets.xcassets */; };
@@ -36,10 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		651018141C2CFA7B00B2DC2C /* JangoSayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JangoSayTableViewCell.swift; sourceTree = "<group>"; };
+		DECDFE931C2CF25E00E9C2BE /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		DECDFE951C2CF73800E9C2BE /* FoodCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCategory.swift; sourceTree = "<group>"; };
+		DECDFE971C2CF96500E9C2BE /* FoodManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodManage.swift; sourceTree = "<group>"; };
 		E8EC9BE41C2CDE81002A7FA3 /* jango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EC9BE71C2CDE81002A7FA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8EC9BE91C2CDE81002A7FA3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		E8EC9BE91C2CDE81002A7FA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8EC9BEC1C2CDE81002A7FA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8EC9BEF1C2CDE81002A7FA3 /* jango.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jango.xcdatamodel; sourceTree = "<group>"; };
 		E8EC9BF11C2CDE81002A7FA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -78,14 +82,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		651018131C2CFA2900B2DC2C /* Cell */ = {
-			isa = PBXGroup;
-			children = (
-				651018141C2CFA7B00B2DC2C /* JangoSayTableViewCell.swift */,
-			);
-			name = Cell;
-			sourceTree = "<group>";
-		};
 		E8EC9BDB1C2CDE81002A7FA3 = {
 			isa = PBXGroup;
 			children = (
@@ -142,8 +138,7 @@
 		E8EC9C181C2CDEA0002A7FA3 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				651018131C2CFA2900B2DC2C /* Cell */,
-				E8EC9BE91C2CDE81002A7FA3 /* MainViewController.swift */,
+				E8EC9BE91C2CDE81002A7FA3 /* ViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -158,6 +153,9 @@
 		E8EC9C1A1C2CDEC3002A7FA3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DECDFE931C2CF25E00E9C2BE /* Food.swift */,
+				DECDFE951C2CF73800E9C2BE /* FoodCategory.swift */,
+				DECDFE971C2CF96500E9C2BE /* FoodManage.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -303,8 +301,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8EC9BF01C2CDE81002A7FA3 /* jango.xcdatamodeld in Sources */,
-				651018151C2CFA7B00B2DC2C /* JangoSayTableViewCell.swift in Sources */,
-				E8EC9BEA1C2CDE81002A7FA3 /* MainViewController.swift in Sources */,
+				DECDFE941C2CF25E00E9C2BE /* Food.swift in Sources */,
+				E8EC9BEA1C2CDE81002A7FA3 /* ViewController.swift in Sources */,
+				DECDFE981C2CF96500E9C2BE /* FoodManage.swift in Sources */,
+				DECDFE961C2CF73800E9C2BE /* FoodCategory.swift in Sources */,
 				E8EC9BE81C2CDE81002A7FA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
