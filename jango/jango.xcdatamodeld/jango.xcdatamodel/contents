@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Food" syncable="YES">
+        <attribute name="f_categoryBig" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f_categorySmall" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f_expireDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="f_key" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f_regDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="f_text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="f_title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FoodCategory" syncable="YES">
+        <attribute name="cb_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cb_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FoodCategorySmall" syncable="YES">
+        <attribute name="cs_Bcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cs_code" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cs_image" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cs_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Food" positionX="-63" positionY="-18" width="128" height="148"/>
+        <element name="FoodCategory" positionX="-63" positionY="-225" width="128" height="73"/>
+        <element name="FoodCategorySmall" positionX="180" positionY="-222" width="128" height="105"/>
+    </elements>
 </model>
