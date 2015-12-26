@@ -11,13 +11,15 @@
 		DECDFE961C2CF73800E9C2BE /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE951C2CF73800E9C2BE /* FoodCategory.swift */; };
 		DECDFE981C2CF96500E9C2BE /* FoodManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE971C2CF96500E9C2BE /* FoodManage.swift */; };
 		E8EC9BE81C2CDE81002A7FA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BE71C2CDE81002A7FA3 /* AppDelegate.swift */; };
-		E8EC9BEA1C2CDE81002A7FA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BE91C2CDE81002A7FA3 /* ViewController.swift */; };
+		E8EC9BEA1C2CDE81002A7FA3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BE91C2CDE81002A7FA3 /* MainViewController.swift */; };
 		E8EC9BED1C2CDE81002A7FA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EC9BEB1C2CDE81002A7FA3 /* Main.storyboard */; };
 		E8EC9BF01C2CDE81002A7FA3 /* jango.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BEE1C2CDE81002A7FA3 /* jango.xcdatamodeld */; };
 		E8EC9BF21C2CDE81002A7FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EC9BF11C2CDE81002A7FA3 /* Assets.xcassets */; };
 		E8EC9BF51C2CDE81002A7FA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EC9BF31C2CDE81002A7FA3 /* LaunchScreen.storyboard */; };
 		E8EC9C001C2CDE81002A7FA3 /* jangoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BFF1C2CDE81002A7FA3 /* jangoTests.swift */; };
 		E8EC9C0B1C2CDE81002A7FA3 /* jangoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9C0A1C2CDE81002A7FA3 /* jangoUITests.swift */; };
+		E8EC9C1E1C2D287A002A7FA3 /* JangoSayTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9C1D1C2D287A002A7FA3 /* JangoSayTableViewCell.swift */; };
+		E8EC9C221C2D2C81002A7FA3 /* FoodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9C211C2D2C81002A7FA3 /* FoodCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +45,7 @@
 		DECDFE971C2CF96500E9C2BE /* FoodManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodManage.swift; sourceTree = "<group>"; };
 		E8EC9BE41C2CDE81002A7FA3 /* jango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EC9BE71C2CDE81002A7FA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8EC9BE91C2CDE81002A7FA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8EC9BE91C2CDE81002A7FA3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E8EC9BEC1C2CDE81002A7FA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8EC9BEF1C2CDE81002A7FA3 /* jango.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jango.xcdatamodel; sourceTree = "<group>"; };
 		E8EC9BF11C2CDE81002A7FA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +57,8 @@
 		E8EC9C061C2CDE81002A7FA3 /* jangoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jangoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EC9C0A1C2CDE81002A7FA3 /* jangoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jangoUITests.swift; sourceTree = "<group>"; };
 		E8EC9C0C1C2CDE81002A7FA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8EC9C1D1C2D287A002A7FA3 /* JangoSayTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JangoSayTableViewCell.swift; sourceTree = "<group>"; };
+		E8EC9C211C2D2C81002A7FA3 /* FoodCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +142,8 @@
 		E8EC9C181C2CDEA0002A7FA3 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E8EC9BE91C2CDE81002A7FA3 /* ViewController.swift */,
+				E8EC9C1C1C2D2863002A7FA3 /* Cell */,
+				E8EC9BE91C2CDE81002A7FA3 /* MainViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -167,6 +172,15 @@
 				E8EC9BF61C2CDE81002A7FA3 /* Info.plist */,
 			);
 			name = Resource;
+			sourceTree = "<group>";
+		};
+		E8EC9C1C1C2D2863002A7FA3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E8EC9C1D1C2D287A002A7FA3 /* JangoSayTableViewCell.swift */,
+				E8EC9C211C2D2C81002A7FA3 /* FoodCollectionViewCell.swift */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,9 +316,11 @@
 			files = (
 				E8EC9BF01C2CDE81002A7FA3 /* jango.xcdatamodeld in Sources */,
 				DECDFE941C2CF25E00E9C2BE /* Food.swift in Sources */,
-				E8EC9BEA1C2CDE81002A7FA3 /* ViewController.swift in Sources */,
+				E8EC9BEA1C2CDE81002A7FA3 /* MainViewController.swift in Sources */,
 				DECDFE981C2CF96500E9C2BE /* FoodManage.swift in Sources */,
 				DECDFE961C2CF73800E9C2BE /* FoodCategory.swift in Sources */,
+				E8EC9C1E1C2D287A002A7FA3 /* JangoSayTableViewCell.swift in Sources */,
+				E8EC9C221C2D2C81002A7FA3 /* FoodCollectionViewCell.swift in Sources */,
 				E8EC9BE81C2CDE81002A7FA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

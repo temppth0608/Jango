@@ -8,11 +8,16 @@
 
 import UIKit
 
-class MainViewController: UIViewController,UITableViewDataSource {
+class MainViewController: UIViewController,UITableViewDataSource, UITableViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate {
 
     @IBOutlet weak var jangoSayTableView: UITableView!
+    @IBOutlet weak var oneCollectionView: UICollectionView!
     
-    var jangoSay = ["안녕, 나는 장고야! 우리집을 깨끗이 유지해줘!!","11월 16일에 산 우유의 유통기한이 2틀 남았어!!"]
+    @IBOutlet weak var twoCollectionView: UICollectionView!
+    
+    var jangoSay = ["안녕, 나는 장고야! 우리집을 깨끗이 유지해줘!!","11월 16일에 산 우유의 유통기한이 2틀 남았어!!", "A", "B", "C"]
+    var jangoItem1 = ["jango", "jango"]
+    var jangoItem2 = ["jango", "jango", "jango", "jango", "jango"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +32,7 @@ class MainViewController: UIViewController,UITableViewDataSource {
     
     internal func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return 2
+        return jangoSay.count
     }
     
     internal func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
@@ -40,5 +45,30 @@ class MainViewController: UIViewController,UITableViewDataSource {
         
         return cell
     }
-
+    
+    internal func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int
+    {
+        if collectionView == oneCollectionView
+        {return jangoItem1.count}
+        
+        else if collectionView == twoCollectionView
+        {return jangoItem2.count}
+        
+        return 0
+    }
+    
+    internal func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
+    {
+        
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("FoodCell", forIndexPath: indexPath) as! FoodCollectionViewCell
+       
+        if collectionView == oneCollectionView
+        {
+            cell.foodImageView.image = UIImage(named: "\(jangoItem1[indexPath.row]).png")
+        } else if collectionView == twoCollectionView
+        {
+            cell.foodImageView.image = UIImage(named: "\(jangoItem2[indexPath.row]).png")
+        }
+        return cell
+    }
 }
