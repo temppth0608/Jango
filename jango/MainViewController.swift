@@ -14,10 +14,14 @@ class MainViewController: UIViewController,UITableViewDataSource, UITableViewDel
     @IBOutlet weak var oneCollectionView: UICollectionView!
     
     @IBOutlet weak var twoCollectionView: UICollectionView!
+    @IBOutlet weak var threeCollectionView: UICollectionView!
+    @IBOutlet weak var fourCollectionView: UICollectionView!
     
     var jangoSay = ["안녕, 나는 장고야! 우리집을 깨끗이 유지해줘!!","11월 16일에 산 우유의 유통기한이 2틀 남았어!!", "A", "B", "C"]
     var jangoItem1 = ["jango", "jango"]
     var jangoItem2 = ["jango", "jango", "jango", "jango", "jango"]
+    var jangoItem3 = ["jango", "jango", "jango", "jango"]
+    var jangoItem4 = ["jango", "jango", "jango", "jango"]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,6 +58,12 @@ class MainViewController: UIViewController,UITableViewDataSource, UITableViewDel
         else if collectionView == twoCollectionView
         {return jangoItem2.count}
         
+        else if collectionView == threeCollectionView
+        {return jangoItem3.count}
+        
+        else if collectionView == fourCollectionView
+        {return jangoItem4.count}
+        
         return 0
     }
     
@@ -69,6 +79,15 @@ class MainViewController: UIViewController,UITableViewDataSource, UITableViewDel
         {
             cell.foodImageView.image = UIImage(named: "\(jangoItem2[indexPath.row]).png")
         }
+        else if collectionView == threeCollectionView
+        {
+            cell.foodImageView.image = UIImage(named: "\(jangoItem3[indexPath.row]).png")
+        }
+        else if collectionView == fourCollectionView
+        {
+            cell.foodImageView.image = UIImage(named: "\(jangoItem4[indexPath.row]).png")
+        }
+        
         return cell
     }
 }
