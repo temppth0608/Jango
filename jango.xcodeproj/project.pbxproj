@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		651018171C2FF4F500B2DC2C /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651018161C2FF4F500B2DC2C /* MainTabBarController.swift */; };
 		DECDFE941C2CF25E00E9C2BE /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE931C2CF25E00E9C2BE /* Food.swift */; };
 		DECDFE961C2CF73800E9C2BE /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE951C2CF73800E9C2BE /* FoodCategory.swift */; };
 		DECDFE981C2CF96500E9C2BE /* FoodManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE971C2CF96500E9C2BE /* FoodManage.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		651018161C2FF4F500B2DC2C /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		DECDFE931C2CF25E00E9C2BE /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		DECDFE951C2CF73800E9C2BE /* FoodCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCategory.swift; sourceTree = "<group>"; };
 		DECDFE971C2CF96500E9C2BE /* FoodManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodManage.swift; sourceTree = "<group>"; };
@@ -144,6 +146,7 @@
 			children = (
 				E8EC9C1C1C2D2863002A7FA3 /* Cell */,
 				E8EC9BE91C2CDE81002A7FA3 /* MainViewController.swift */,
+				651018161C2FF4F500B2DC2C /* MainTabBarController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 			files = (
 				E8EC9BF01C2CDE81002A7FA3 /* jango.xcdatamodeld in Sources */,
 				DECDFE941C2CF25E00E9C2BE /* Food.swift in Sources */,
+				651018171C2FF4F500B2DC2C /* MainTabBarController.swift in Sources */,
 				E8EC9BEA1C2CDE81002A7FA3 /* MainViewController.swift in Sources */,
 				DECDFE981C2CF96500E9C2BE /* FoodManage.swift in Sources */,
 				DECDFE961C2CF73800E9C2BE /* FoodCategory.swift in Sources */,
