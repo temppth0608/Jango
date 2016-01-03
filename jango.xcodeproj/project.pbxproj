@@ -148,10 +148,6 @@
 		E8EC9C181C2CDEA0002A7FA3 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< HEAD
-=======
-				E8EC9C1C1C2D2863002A7FA3 /* Cell */,
->>>>>>> b22bb662001c2d1bdf3639dbbe4b2232be720987
 				E8EC9BE91C2CDE81002A7FA3 /* MainViewController.swift */,
 			);
 			name = ViewController;
@@ -329,19 +325,11 @@
 			files = (
 				E8EC9BF01C2CDE81002A7FA3 /* jango.xcdatamodeld in Sources */,
 				DECDFE941C2CF25E00E9C2BE /* Food.swift in Sources */,
-<<<<<<< HEAD
-				DECDFEA01C38DA0200E9C2BE /* TestViewController.swift in Sources */,
-				E8EC9BEA1C2CDE81002A7FA3 /* MainViewController.swift in Sources */,
-				DECDFE981C2CF96500E9C2BE /* FoodManage.swift in Sources */,
-				DECDFE961C2CF73800E9C2BE /* FoodCategory.swift in Sources */,
-				DECDFE9E1C38D7F500E9C2BE /* TestTableViewController.swift in Sources */,
-=======
 				E8EC9BEA1C2CDE81002A7FA3 /* MainViewController.swift in Sources */,
 				DECDFE981C2CF96500E9C2BE /* FoodManage.swift in Sources */,
 				DECDFE961C2CF73800E9C2BE /* FoodCategory.swift in Sources */,
 				E8EC9C1E1C2D287A002A7FA3 /* JangoSayTableViewCell.swift in Sources */,
 				E8EC9C221C2D2C81002A7FA3 /* FoodCollectionViewCell.swift in Sources */,
->>>>>>> b22bb662001c2d1bdf3639dbbe4b2232be720987
 				E8EC9BE81C2CDE81002A7FA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
