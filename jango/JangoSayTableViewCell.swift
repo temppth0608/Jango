@@ -9,7 +9,7 @@
 import UIKit
 
 class JangoSayTableViewCell: UITableViewCell {
-
+    
     @IBOutlet weak var jangoImageView: UIImageView!
     @IBOutlet weak var ballonImageView: UIImageView!
     @IBOutlet weak var jangoLabel: UILabel!
@@ -17,11 +17,11 @@ class JangoSayTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
-
+    
 }
