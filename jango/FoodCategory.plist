@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>0101</key>
+	<string>소 목살</string>
+	<key>0102</key>
+	<string>소 등심</string>
+	<key>0103</key>
+	<string>소 채끝</string>
+	<key>0104</key>
+	<string>소 갈비</string>
+	<key>0105</key>
+	<string>소 안심</string>
+	<key>0106</key>
+	<string>소 앞다리</string>
+	<key>0107</key>
+	<string>소 양지</string>
+	<key>0108</key>
+	<string>소 우둔</string>
+	<key>0109</key>
+	<string>소 설도</string>
+	<key>0110</key>
+	<string>소 사태</string>
+	<key>0111</key>
+	<string>돼지 목심</string>
+	<key>0112</key>
+	<string>돼지 등심</string>
+	<key>0113</key>
+	<string>돼지 갈비</string>
+	<key>0114</key>
+	<string>돼지 삼겹살</string>
+	<key>0115</key>
+	<string>돼지 앞다리</string>
+	<key>0116</key>
+	<string>돼지 뒷다리</string>
+	<key>0117</key>
+	<string>닭 안심</string>
+	<key>0119</key>
+	<string>닭 가슴살</string>
+	<key>0120</key>
+	<string>닭 윗날개</string>
+	<key>0121</key>
+	<string>닭 아랫날개</string>
+	<key>0122</key>
+	<string>닭 윗다리</string>
+	<key>0123</key>
+	<string>닭다리</string>
+	<key>0201</key>
+	<string>고등어</string>
+	<key>0202</key>
+	<string>꽁치</string>
+	<key>0203</key>
+	<string>삼치</string>
+	<key>0204</key>
+	<string>멸치</string>
+	<key>0205</key>
+	<string>조기</string>
+	<key>0206</key>
+	<string>갈치</string>
+	<key>0207</key>
+	<string>대구</string>
+	<key>0208</key>
+	<string>아귀</string>
+	<key>0209</key>
+	<string>명태</string>
+	<key>0210</key>
+	<string>농어</string>
+	<key>0211</key>
+	<string>가자미</string>
+	<key>0212</key>
+	<string>넙치</string>
+	<key>0213</key>
+	<string>가오리</string>
+	<key>0214</key>
+	<string>연어</string>
+	<key>0215</key>
+	<string>홍어</string>
+	<key>0216</key>
+	<string>홍합</string>
+	<key>0217</key>
+	<string>소라</string>
+	<key>0218</key>
+	<string>피조개</string>
+	<key>0219</key>
+	<string>굴</string>
+	<key>0220</key>
+	<string>전복</string>
+	<key>0221</key>
+	<string>새우</string>
+	<key>0222</key>
+	<string>게</string>
+	<key>0223</key>
+	<string>오징어</string>
+	<key>0224</key>
+	<string>문어</string>
+	<key>0225</key>
+	<string>낙지</string>
+	<key>0226</key>
+	<string>해삼</string>
+	<key>0227</key>
+	<string>멍개</string>
+	<key>0228</key>
+	<string>해파리</string>
+	<key>0301</key>
+	<string>우유</string>
+	<key>0302</key>
+	<string>크림</string>
+	<key>0303</key>
+	<string>버터</string>
+	<key>0304</key>
+	<string>분유</string>
+	<key>0305</key>
+	<string>아이스크림</string>
+	<key>0306</key>
+	<string>치즈</string>
+	<key>0307</key>
+	<string>마가린</string>
+	<key>0308</key>
+	<string>커피크리머</string>
+	<key>0309</key>
+	<string>두유</string>
+	<key>0310</key>
+	<string>연유</string>
+	<key>0401</key>
+	<string>수박</string>
+	<key>0402</key>
+	<string>메론</string>
+	<key>0403</key>
+	<string>망고</string>
+	<key>0404</key>
+	<string>딸기</string>
+	<key>0405</key>
+	<string>바나나</string>
+	<key>0406</key>
+	<string>체리</string>
+	<key>0407</key>
+	<string>키위</string>
+	<key>0408</key>
+	<string>토마토</string>
+	<key>0409</key>
+	<string>복숭아</string>
+	<key>0410</key>
+	<string>석류</string>
+	<key>0411</key>
+	<string>오렌지</string>
+	<key>0412</key>
+	<string>포도</string>
+	<key>0413</key>
+	<string>자몽</string>
+	<key>0414</key>
+	<string>사과</string>
+	<key>0415</key>
+	<string>레몬</string>
+	<key>0416</key>
+	<string>참외</string>
+	<key>0417</key>
+	<string>파인애플</string>
+	<key>0418</key>
+	<string>귤</string>
+	<key>0419</key>
+	<string>감</string>
+	<key>0420</key>
+	<string>상추</string>
+	<key>0421</key>
+	<string>배추</string>
+	<key>0422</key>
+	<string>시금치</string>
+	<key>0423</key>
+	<string>갓</string>
+	<key>0424</key>
+	<string>미나리</string>
+	<key>0425</key>
+	<string>양상추</string>
+	<key>0426</key>
+	<string>상추</string>
+	<key>0427</key>
+	<string>쑥갓</string>
+	<key>0428</key>
+	<string>무</string>
+	<key>0429</key>
+	<string>당근</string>
+	<key>0430</key>
+	<string>도라지</string>
+	<key>0431</key>
+	<string>연근</string>
+	<key>0432</key>
+	<string>양배추</string>
+	<key>0433</key>
+	<string>죽순</string>
+	<key>0434</key>
+	<string>아스파라거스</string>
+	<key>0435</key>
+	<string>감자</string>
+	<key>0436</key>
+	<string>고구마</string>
+	<key>0437</key>
+	<string>파프리카</string>
+	<key>0438</key>
+	<string>고추</string>
+	<key>0439</key>
+	<string>피망</string>
+	<key>0440</key>
+	<string>브로콜리</string>
+	<key>0501</key>
+	<string>케익</string>
+	<key>0502</key>
+	<string>머핀</string>
+	<key>0503</key>
+	<string>소보루 빵</string>
+	<key>0504</key>
+	<string>쿠키</string>
+	<key>0505</key>
+	<string>스콘</string>
+	<key>0506</key>
+	<string>호밀 빵</string>
+	<key>0507</key>
+	<string>식빵</string>
+	<key>0508</key>
+	<string>잡곡 빵</string>
+	<key>0509</key>
+	<string>추로스</string>
+	<key>0510</key>
+	<string>크로와상</string>
+	<key>0511</key>
+	<string>카스테라</string>
+	<key>0512</key>
+	<string>바게트</string>
+	<key>0513</key>
+	<string>슈크림빵</string>
+	<key>0514</key>
+	<string>베이글</string>
+	<key>0515</key>
+	<string>팬케이크</string>
+	<key>0516</key>
+	<string>모카빵</string>
+	<key>0517</key>
+	<string>슈</string>
+	<key>0518</key>
+	<string>타르트</string>
+	<key>0519</key>
+	<string>파이</string>
+	<key>0520</key>
+	<string>파니니</string>
+	<key>0521</key>
+	<string>단팥빵</string>
+	<key>0522</key>
+	<string>피자빵</string>
+	<key>0601</key>
+	<string>크림 소스</string>
+	<key>0602</key>
+	<string>굴 소스</string>
+	<key>0603</key>
+	<string>레드와인 소스</string>
+	<key>0604</key>
+	<string>홀스래디시 소스</string>
+	<key>0605</key>
+	<string>이탈리안 소스</string>
+	<key>0606</key>
+	<string>미트 소스</string>
+	<key>0607</key>
+	<string>타바스코 소스</string>
+	<key>0608</key>
+	<string>케첩</string>
+	<key>0609</key>
+	<string>마요네즈</string>
+	<key>0610</key>
+	<string>머스터드</string>
+	<key>0611</key>
+	<string>고추장</string>
+	<key>0612</key>
+	<string>된장</string>
+	<key>0613</key>
+	<string>쌈장</string>
+	<key>0614</key>
+	<string>겨자</string>
+	<key>0615</key>
+	<string>나초 치즈</string>
+	<key>0616</key>
+	<string>데리야끼</string>
+	<key>0617</key>
+	<string>참깨 드레싱</string>
+	<key>0618</key>
+	<string>칠리 소스</string>
+	<key>0619</key>
+	<string>갈릭 소스</string>
+	<key>0620</key>
+	<string>핫 소스</string>
+	<key>0621</key>
+	<string>토마토 소스</string>
+	<key>0701</key>
+	<string>콜라</string>
+	<key>0702</key>
+	<string>사이다</string>
+	<key>0703</key>
+	<string>환타</string>
+	<key>0704</key>
+	<string>오란씨</string>
+	<key>0705</key>
+	<string>밀키스</string>
+	<key>0706</key>
+	<string>데미소다</string>
+	<key>0707</key>
+	<string>네스티</string>
+	<key>0708</key>
+	<string>실론티</string>
+	<key>0709</key>
+	<string>미린다</string>
+	<key>0710</key>
+	<string>써니텐</string>
+	<key>0711</key>
+	<string>토닉워터</string>
+	<key>0712</key>
+	<string>레몬에이드</string>
+	<key>0713</key>
+	<string>자몽에이드</string>
+	<key>0714</key>
+	<string>포카리스웨트</string>
+	<key>0715</key>
+	<string>파워에이드</string>
+	<key>0716</key>
+	<string>오랜지주스</string>
+	<key>0717</key>
+	<string>포도주스</string>
+	<key>0718</key>
+	<string>사과주스</string>
+	<key>0719</key>
+	<string>하루야채</string>
+	<key>0720</key>
+	<string>당근주스</string>
+	<key>0721</key>
+	<string>카페모카</string>
+	<key>0722</key>
+	<string>에스프레소</string>
+	<key>0723</key>
+	<string>카푸치노</string>
+	<key>0724</key>
+	<string>얼그레이 티</string>
+	<key>0725</key>
+	<string>자스민</string>
+	<key>0726</key>
+	<string>우롱차</string>
+	<key>0727</key>
+	<string>현미녹차</string>
+	<key>0728</key>
+	<string>미숫가루</string>
+	<key>0729</key>
+	<string>수정과</string>
+	<key>0730</key>
+	<string>인삼차</string>
+	<key>0731</key>
+	<string>생강차</string>
+	<key>0732</key>
+	<string>대추차</string>
+	<key>0733</key>
+	<string>유자차</string>
+	<key>0734</key>
+	<string>식혜</string>
+</dict>
+</plist>
