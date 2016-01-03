@@ -10,8 +10,11 @@
 		DECDFE941C2CF25E00E9C2BE /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE931C2CF25E00E9C2BE /* Food.swift */; };
 		DECDFE961C2CF73800E9C2BE /* FoodCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE951C2CF73800E9C2BE /* FoodCategory.swift */; };
 		DECDFE981C2CF96500E9C2BE /* FoodManage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE971C2CF96500E9C2BE /* FoodManage.swift */; };
+		DECDFE9A1C38C94F00E9C2BE /* FoodCategory.plist in Resources */ = {isa = PBXBuildFile; fileRef = DECDFE991C38C94F00E9C2BE /* FoodCategory.plist */; };
+		DECDFE9E1C38D7F500E9C2BE /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE9D1C38D7F500E9C2BE /* TestTableViewController.swift */; };
+		DECDFEA01C38DA0200E9C2BE /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECDFE9F1C38DA0200E9C2BE /* TestViewController.swift */; };
 		E8EC9BE81C2CDE81002A7FA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BE71C2CDE81002A7FA3 /* AppDelegate.swift */; };
-		E8EC9BEA1C2CDE81002A7FA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BE91C2CDE81002A7FA3 /* ViewController.swift */; };
+		E8EC9BEA1C2CDE81002A7FA3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BE91C2CDE81002A7FA3 /* MainViewController.swift */; };
 		E8EC9BED1C2CDE81002A7FA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EC9BEB1C2CDE81002A7FA3 /* Main.storyboard */; };
 		E8EC9BF01C2CDE81002A7FA3 /* jango.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E8EC9BEE1C2CDE81002A7FA3 /* jango.xcdatamodeld */; };
 		E8EC9BF21C2CDE81002A7FA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E8EC9BF11C2CDE81002A7FA3 /* Assets.xcassets */; };
@@ -41,9 +44,12 @@
 		DECDFE931C2CF25E00E9C2BE /* Food.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 		DECDFE951C2CF73800E9C2BE /* FoodCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCategory.swift; sourceTree = "<group>"; };
 		DECDFE971C2CF96500E9C2BE /* FoodManage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodManage.swift; sourceTree = "<group>"; };
+		DECDFE991C38C94F00E9C2BE /* FoodCategory.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = FoodCategory.plist; sourceTree = "<group>"; };
+		DECDFE9D1C38D7F500E9C2BE /* TestTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
+		DECDFE9F1C38DA0200E9C2BE /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 		E8EC9BE41C2CDE81002A7FA3 /* jango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jango.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EC9BE71C2CDE81002A7FA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E8EC9BE91C2CDE81002A7FA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E8EC9BE91C2CDE81002A7FA3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E8EC9BEC1C2CDE81002A7FA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8EC9BEF1C2CDE81002A7FA3 /* jango.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = jango.xcdatamodel; sourceTree = "<group>"; };
 		E8EC9BF11C2CDE81002A7FA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -138,7 +144,7 @@
 		E8EC9C181C2CDEA0002A7FA3 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				E8EC9BE91C2CDE81002A7FA3 /* ViewController.swift */,
+				E8EC9BE91C2CDE81002A7FA3 /* MainViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 		E8EC9C191C2CDEAC002A7FA3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DECDFE9D1C38D7F500E9C2BE /* TestTableViewController.swift */,
+				DECDFE9F1C38DA0200E9C2BE /* TestViewController.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -165,6 +173,7 @@
 			children = (
 				E8EC9BF11C2CDE81002A7FA3 /* Assets.xcassets */,
 				E8EC9BF61C2CDE81002A7FA3 /* Info.plist */,
+				DECDFE991C38C94F00E9C2BE /* FoodCategory.plist */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -275,6 +284,7 @@
 			files = (
 				E8EC9BF51C2CDE81002A7FA3 /* LaunchScreen.storyboard in Resources */,
 				E8EC9BF21C2CDE81002A7FA3 /* Assets.xcassets in Resources */,
+				DECDFE9A1C38C94F00E9C2BE /* FoodCategory.plist in Resources */,
 				E8EC9BED1C2CDE81002A7FA3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,9 +312,11 @@
 			files = (
 				E8EC9BF01C2CDE81002A7FA3 /* jango.xcdatamodeld in Sources */,
 				DECDFE941C2CF25E00E9C2BE /* Food.swift in Sources */,
-				E8EC9BEA1C2CDE81002A7FA3 /* ViewController.swift in Sources */,
+				DECDFEA01C38DA0200E9C2BE /* TestViewController.swift in Sources */,
+				E8EC9BEA1C2CDE81002A7FA3 /* MainViewController.swift in Sources */,
 				DECDFE981C2CF96500E9C2BE /* FoodManage.swift in Sources */,
 				DECDFE961C2CF73800E9C2BE /* FoodCategory.swift in Sources */,
+				DECDFE9E1C38D7F500E9C2BE /* TestTableViewController.swift in Sources */,
 				E8EC9BE81C2CDE81002A7FA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
